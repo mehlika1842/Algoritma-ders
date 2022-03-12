@@ -1,4 +1,5 @@
 # Algoritma-ders
+//with pow
 #include <stdlib.h> 
 #include <stdio.h> 
 #include <math.h>
@@ -23,3 +24,28 @@ printf("\nSonuç=%.4f",sonuc);
 
 return 0;
 }
+
+//without pow
+#include <stdlib.h> 
+#include <stdio.h> 
+#include<locale.h>
+int main()
+{
+setlocale(LC_ALL, "Turkish");
+float sonuc=1.0,x,a=1,b;
+
+printf("X değerini giriniz:"); 
+scanf("%f",&x);
+printf("1.adım=>1");
+for(int i=1;i<15;i++)
+{
+ a*=x/i;
+ sonuc+=a;
+ printf("\n%d.adım=>%f",i+1,sonuc);
+}
+printf("\nSonuç=%.4f",sonuc);
+
+return 0;
+}
+
+
