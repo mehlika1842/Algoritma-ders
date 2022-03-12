@@ -1,4 +1,4 @@
-# Algoritma-ders
+# Algoritma e^x fonksiyonu
 //with pow
 #include <stdlib.h> 
 #include <stdio.h> 
