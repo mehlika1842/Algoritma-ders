@@ -8,7 +8,8 @@ int main()
     float sonuc=1.0;
     printf("X'i gir:");
     scanf("%d",&x);	
-    for(int i=1;i<5;i++)
+    int i=1;
+    for(i=1;i<5;i++)
     {
         faktoriyel *= 2*i * (2*i - 1);
 
