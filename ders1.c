@@ -2,8 +2,6 @@
 #include<stdio.h>
 #include<math.h>
 
-// c ile kosinüs algoritması
-
 int main()
 {
     int x,faktoriyel=1;
